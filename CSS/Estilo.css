@@ -1,0 +1,142 @@
+/* Estilo padrão para todos os dispositivos */
+body {
+       background-color: white;
+       color: black;
+    }
+
+/* Estilo específico para dispositivos com largura máxima de 600 pixels (celulares) */
+@media (max-width: 600px) {
+    body {
+       background-color: blue;
+       color: white;
+}
+
+    }
+
+/* Estilo específico para dispositivos com largura mínima de 601 pixels e máxima de 1024 pixels (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: green;
+        color: black;
+}
+
+    }
+
+/* Estilo específico para dispositivos com largura mínima de 1025 pixels (computadores) */
+@media (min-width: 1025px) {
+    body {
+        background-color: yellow;
+        color: black;
+
+}
+
+    }
+
+    /* Estilo do corpo do site */
+    body {
+        background-color: #f0f0f0; /* Cor de fundo cinza claro */
+        font-family: Arial, sans-serif; /* Fonte padrão */
+        margin: 0; /* Remover margens */
+    }
+
+    /* Estilo do cabeçalho */
+    .header {
+        background-color: #8404ee; /* Cor de fundo preta */
+        color: white; /* Cor do texto branca */
+        padding: 20px; /* Espaçamento interno */
+        text-align: center; /* Alinhamento do texto */
+    }
+
+    /* Estilo da foto redonda */
+    .round {
+        
+        border-radius: 50%; /* Borda arredondada */
+        width: 200px; /* Largura da foto */
+        height: 200px; /* Altura da foto */
+        object-fit: cover; /* Ajustar a foto ao tamanho */
+        border: 5px solid white; /* Borda branca ao redor da foto */
+    }
+
+    /* Estilo da imagem de fundo da foto */
+    .background {
+        position: absolute; /* Posição absoluta em relação ao cabeçalho */
+        top: 0; /* Alinhar ao topo do cabeçalho */
+        left: 0; /* Alinhar à esquerda do cabeçalho */
+        width: 100%; /* Largura igual à do cabeçalho */
+        height: 100%; /* Altura igual à do cabeçalho */
+        filter: blur(15px); /* Aplicar um efeito de desfoque na imagem */
+        z-index: -1; /* Colocar a imagem atrás da foto e do título */
+    }
+
+    /* Estilo da barra de navegação */
+    .navbar {
+        display: flex; /* Usar flexbox para organizar os itens */
+        background-color: #555; /* Cor de fundo cinza escuro */
+    }
+
+    /* Estilo dos links da barra de navegação */
+    .navbar a {
+        color: white; /* Cor do texto branca */
+        padding: 14px 20px; /* Espaçamento interno */
+        text-decoration: none; /* Remover sublinhado */
+        text-align: center; /* Alinhamento do texto */
+    }
+
+    /* Estilo dos links da barra de navegação ao passar o mouse */
+    .navbar a:hover {
+        background-color: #111; /* Cor de fundo preta */
+    }
+
+    /* Estilo do conteúdo principal */
+    .main {
+        display: flex; /* Usar flexbox para organizar os itens */
+        flex-wrap: wrap; /* Permitir que os itens sejam quebrados em linhas */
+        justify-content: center; /* Centralizar os itens horizontalmente */
+        padding: 20px; /* Espaçamento interno */
+    }
+
+    /* Estilo das seções do conteúdo principal */
+    .section {
+        flex-basis: 70%; /* Largura base de cada seção */
+        margin: 70px; /* Margem externa */
+        background-color: white; /* Cor de fundo branca */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra ao redor da seção */
+        padding: 16px; /* Espaçamento interno */
+    }
+
+    /* Estilo dos títulos das seções */
+    .section h2 {
+        color: #8404ee; /* Cor do texto lilás */ 
+        text-align: center; /* Alinhamento do texto */ 
+    }
+
+    /* Estilo dos parágrafos das seções */ 
+    .section p { 
+        text-align: justify; /* Alinhamento do texto justificado */ 
+    }
+
+    /* Estilo das imagens das seções */ 
+    .section img { 
+        display: block; /* Exibir a imagem como um bloco */ 
+        margin-left: auto; /* Centralizar a imagem horizontalmente */ 
+        margin-right: auto;
+        width: 50%; /* Largura da imagem em relação à seção */ 
+    }
+
+    /* Estilo do rodapé */ 
+    .footer { 
+        background-color: #333333; /* Cor de fundo preta */ 
+        color: white; /* Cor do texto branca */ 
+        padding: 30px; /* Espaçamento interno */ 
+        text-align: center; /* Alinhamento do texto */ 
+    }
+
+    /* Estilo da seção portfólio */
+    .section {
+     text-align: center; /* Alinhar o texto e os elementos inline ao centro */
+     
+    }
+
+    /* Centraliza os parágrafos */
+    p { text-align: center }
+    h2 { text-align: center}
